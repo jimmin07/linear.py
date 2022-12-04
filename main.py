@@ -7,6 +7,7 @@ plt.style.use('default')
 
 fig, ax = plt.subplots()
 
+#x, y축 위치 조정
 ax.spines['left'].set_position(('data', 0))
 ax.spines['right'].set_visible(False)
 ax.spines['top'].set_visible(False)
